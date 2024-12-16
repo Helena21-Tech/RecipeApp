@@ -1,0 +1,43 @@
+.iconBox {
+  width: 12rem;
+  height: 12rem;
+  background-color: #fae8dc;
+  margin: 4rem auto;
+  /* padding: 3rem; */
+  border-radius: 80px;
+}
+.iconBox svg {
+  width: 100%;
+  margin: 4rem auto;
+}
+.heading_04 {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+  text-transform: capitalize;
+}
+.featureText {
+  margin: 1rem 0;
+  font-size: 1.6rem;
+  color: #878f99;
+}
+@media screen and (max-width: 769px) {
+  .iconBox {
+    width: 8rem;
+    height: 8rem;
+  }
+  .iconBox svg {
+    margin: 2rem auto;
+  }
+  .heading_04 {
+    font-size: 1.2rem;
+  }
+  .featureText {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .feature {
+    width: 60%;
+    margin: 2rem auto;
+  }
+}

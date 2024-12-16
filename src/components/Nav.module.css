@@ -1,0 +1,26 @@
+.nav_list {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+.nav_list li {
+  padding: 2rem 0rem;
+}
+.nav_list_mobile {
+  margin: 4rem 0;
+  list-style-type: none;
+  font-size: 1.4rem;
+  display: block;
+  text-align: center;
+}
+.nav_list_mobile li {
+  margin: 2rem;
+}
+.cartBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cartBtn div {
+  margin-right: 1rem;
+}

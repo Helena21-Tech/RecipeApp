@@ -1,0 +1,19 @@
+.newsList {
+  display: none;
+}
+.active {
+  margin: 4rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+@media screen and (max-width: 1024px) {
+  .active {
+    margin: 2rem 0;
+  }
+}
+@media screen and (max-width: 769px) {
+  .active {
+    display: block;
+  }
+}

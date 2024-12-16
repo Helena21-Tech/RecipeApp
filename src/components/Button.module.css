@@ -1,0 +1,37 @@
+.btn {
+  text-transform: capitalize;
+  border: none;
+  border-radius: 20px;
+}
+.default {
+  padding: 1.5rem 3rem;
+  margin: 1rem 0;
+  background-color: #fb8a22;
+  color: white;
+}
+.default:hover,
+.default:active {
+  background-color: white;
+  color: #fb8a22;
+  border: 1px solid #fb8a22;
+}
+.extra {
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid #878f99;
+}
+.extra:hover,
+.extra:active {
+  padding: 1rem;
+  background-color: #fb8a22;
+  color: white;
+  border: none;
+}
+@media screen and (max-width: 850px) {
+  .default {
+    padding: 1rem 2rem;
+  }
+  .extra {
+    font-size: 1.2rem;
+  }
+}

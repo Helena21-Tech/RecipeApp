@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  background-color: white;
+  color: #22262a;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 769px) {
+  body {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,24 @@
+.menu {
+  background-color: #e5eef8;
+  padding: 8rem;
+  text-align: center;
+}
+.heading_02 {
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+@media screen and (max-width: 1100px) {
+  .menu {
+    padding: 4rem;
+  }
+}
+@media screen and (max-width: 769px) {
+  .heading_02 {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 481px) {
+  .heading_02 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,46 @@
+.aboutSection {
+  position: relative;
+}
+.about {
+  padding: 8rem;
+  text-align: center;
+}
+.orangeImg {
+  position: absolute;
+  width: 20%;
+  margin-left: -10%;
+  margin-top: -8%;
+  z-index: -100;
+}
+/*Heading*/
+.heading_02 {
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+.features {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+@media screen and (max-width: 1100px) {
+  .about {
+    padding: 4rem;
+  }
+}
+@media screen and (max-width: 769px) {
+  .heading_02 {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .features {
+    display: block;
+  }
+}
+@media screen and (max-width: 481px) {
+  .heading_02 {
+    font-size: 2rem;
+  }
+}
