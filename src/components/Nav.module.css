@@ -2,11 +2,13 @@
   list-style-type: none;
   display: flex;
   gap: 2rem;
+  cursor: pointer;
 }
 .nav_list li {
   padding: 2rem 0rem;
 }
 .nav_list_mobile {
+  cursor: pointer;
   margin: 4rem 0;
   list-style-type: none;
   font-size: 1.4rem;
